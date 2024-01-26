@@ -1,13 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Your Title Here</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h2><a href="https://www.linkedin.com/in/yashmarkendey">Yash Markendey</a></h2>
-    <img src="https://media.licdn.com/dms/image/D5603AQGv2Uu50IdIbg/profile-displayphoto-shrink_400_400/0/1688273180703?e=1710979200&v=beta&t=TZbNlIFrY4FIgqNjQRGsLq5XfIDcyMCPZGIGggbTGtY" alt="Yash Markendey's profile picture">
-    <h3>Third-year UK-US Fulbright scholar at Northwestern University, with majors in Journalism and International Studies and Integrated Marketing Communications Certificate and an interest in marketing, research, and freelance writing.</h3>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Yash Markendey</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .photo-portfolio {
+      display: flex;
+      justify-content: space-between;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .portfolio-item {
+      flex: 0 0 auto;
+      width: 30%;
+      box-sizing: border-box;
+    }
+
+    .portfolio-item img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h2><a href="https://www.linkedin.com/in/yashmarkendey">Yash Markendey</a></h2>
+  <img src="https://media.licdn.com/dms/image/D5603AQGv2Uu50IdIbg/profile-displayphoto-shrink_400_400/0/1688273180703?e=1710979200&v=beta&t=TZbNlIFrY4FIgqNjQRGsLq5XfIDcyMCPZGIGggbTGtY" alt="Yash Markendey's profile picture">
+  <h3>Third-year UK-US Fulbright scholar at Northwestern University, with majors in Journalism and International Studies and Integrated Marketing Communications Certificate and an interest in marketing, research, and freelance writing.</h3>
+
+  <h2>My photo portfolio</h2>
+
+  <div class="photo-portfolio">
+    <div class="portfolio-item">
+      <img src="https://images.squarespace-cdn.com/content/v1/653954cced93c52235f9db92/1698256079237-QWQEH23RVC45Y1WHCQQB/20230814-8O3A1841.jpg?format=2500w" alt="Photo 1">
+      <p>Boston</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="https://images.squarespace-cdn.com/content/v1/653954cced93c52235f9db92/1698256079201-9NFFDM2YW3Z7WUOB8XJO/20230913-8O3A2070-2.jpg?format=750w" alt="Photo 2">
+      <p>Portrait of a friend in London</p>
+    </div>
+    <div class="portfolio-item">
+      <img src="https://images.squarespace-cdn.com/content/v1/653954cced93c52235f9db92/15b3d5b5-5282-4b11-9f61-d982b0bf8884/8O3A2189-2.jpg?format=750w" alt="Photo 3">
+      <p>Palace of Fine Arts</p>
+    </div>
+  </div>
+
+  <h2>See more <a href="https://www.yashmarkendey.com/yashslens/home-sdrax">here</a></h2>
+</body>
 </html>
